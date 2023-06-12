@@ -1,0 +1,68 @@
+.hero {
+    width: 100%;
+    background-image: url("images/hero-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.upload {
+    position: absolute;
+    right: 70%;
+    top: 45%;
+    display: inline-block;
+    padding: 8px 0;
+    padding-left: 1%;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.predict {
+    position: absolute;
+    right: 57%;
+    top: 45%;
+    display: inline-block;
+    padding: 8px 0;
+    padding-left: 1.5%;
+    background-color: #ffe771;
+    color: #000000;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.image {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 30%;
+    border-radius: 15px;
+}
+
+.result {
+    position: absolute;
+    top: 54%;
+    left: 19%;
+    color: #ffe771;
+    align-content: center;
+}
+
+.details {
+    position: absolute;
+    top: 25%;
+    left: 19%;
+    color: #ffffff;
+}
+  
+.details h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+

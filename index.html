@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Site Metas -->
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+
+        <script src="script.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+        <title>Pulmonary ailment detection</title>
+    </head>
+
+    <body>
+        <div class="hero">
+            <div class="details">
+                <h1>
+                    Pulmonary Ailment Detection
+                </h1>
+                <p>
+                    Breathing easier with the power of AI
+                </p>
+            </div>
+
+            <label style="cursor: pointer; width: 10%; height: 15px;" class="upload">
+                Upload X-ray
+                <input type="file" class="upload" id="upload" accept="image/jpeg, image/png" onchange="handleImageUpload(event)" style="display: none;">
+            </label>
+            
+            <label style="cursor: pointer; width: 8%; height: 15px;" class="predict">
+                Diagnose
+                <input type="button" id="predict" onclick="handlePrediction()" style="display: none;">
+            </label>
+
+            <img src="" id="image" class="image">
+            
+            <h1 id="result" class="result"></h1>
+        </div>
+    </body>
+</html>
