@@ -22,7 +22,7 @@ function preprocessImage(image) {
 function handleImageUpload(event) {
     const image = document.getElementById('image');
 	image.src = URL.createObjectURL(event.target.files[0]);
-
+    image.style.visibility = "visible"
     console.log(image);
 }
 

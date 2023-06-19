@@ -15,29 +15,29 @@
         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
         <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 
-        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
 
         <title>Pulmonary ailment detection</title>
     </head>
 
     <body>
         <div class="hero">
-            <div class="details">
-                <h1>
+            <div>
+                <h1 class="details">
                     Pulmonary Ailment Detection
                 </h1>
-                <p>
+                <p class="details_2">
                     Breathing easier with the power of AI
                 </p>
             </div>
 
             <label style="cursor: pointer; width: 10%; height: 15px;" class="upload">
-                Upload X-ray
+                <center>Upload X-ray</center>
                 <input type="file" class="upload" id="upload" accept="image/jpeg, image/png" onchange="handleImageUpload(event)" style="display: none;">
             </label>
             
             <label style="cursor: pointer; width: 8%; height: 15px;" class="predict">
-                Diagnose
+                <center>Diagnose</center>
                 <input type="button" id="predict" onclick="handlePrediction()" style="display: none;">
             </label>
 
