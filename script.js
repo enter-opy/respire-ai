@@ -4,7 +4,7 @@ var image;
 
 async function loadModel() {
     model = undefined;
-    model = await tf.loadLayersModel('model/model.json');
+    model = await tf.loadLayersModel('tmp/model/model.json');
     console.log("model loaded");
 }
 
