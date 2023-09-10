@@ -4,7 +4,7 @@ body {
 
 .hero {
     width: 100%;
-    background-image: url("images/hero-bg.png");
+    background-color: #08068f;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
