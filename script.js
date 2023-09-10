@@ -21,9 +21,10 @@ function preprocessImage(image) {
 
 function handleImageUpload(event) {
     const image = document.getElementById('image');
-	image.src = URL.createObjectURL(event.target.files[0]);
-    image.style.visibility = "visible"
-    console.log(image);
+    image.src = URL.createObjectURL(event.target.files[0]);
+    image.style.visibility = "visible";
+    const result = document.getElementById("result");
+    result.innerHTML = "";
 }
 
 function handlePrediction() {
@@ -33,13 +34,10 @@ function handlePrediction() {
     const prediction = model.predict(preprocessedImage);
     const disease = tf.argMax(prediction, 1).dataSync()[0];
     const result = document.getElementById("result");
-    if(disease===0){
+    if (disease===0){
         result.innerHTML = "Normal";
-        console.log("normal")
     }
     else{
         result.innerHTML = "Pnuemonia detected";
-        console.log("pnemonia detected")
     }
-    console.log(disease);
 };
