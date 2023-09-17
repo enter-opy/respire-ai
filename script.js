@@ -5,16 +5,13 @@ var image;
 async function loadModel() {
     model = undefined;
     model = await tf.loadLayersModel('tmp/model/model.json');
-    console.log("model loaded");
 }
 
 loadModel();
 
 function preprocessImage(image) {
     const resizedImage = tf.image.resizeBilinear(image, [224, 224]);
-
     const normalizedImage = resizedImage.div(255.0);
-
     const batchedImage = normalizedImage.expandDims(0);
     return batchedImage;
   }
@@ -38,6 +35,6 @@ function handlePrediction() {
         result.innerHTML = "Normal";
     }
     else{
-        result.innerHTML = "Pnuemonia detected";
+        result.innerHTML = "Detected pnuemonia";
     }
 };
