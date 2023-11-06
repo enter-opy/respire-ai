@@ -14,7 +14,7 @@ function preprocessImage(image) {
     const normalizedImage = resizedImage.div(255.0);
     const batchedImage = normalizedImage.expandDims(0);
     return batchedImage;
-  }
+}
 
 function handleImageUpload(event) {
     const image = document.getElementById('image');
