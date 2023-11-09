@@ -16,7 +16,7 @@ body {
 .upload {
     position: absolute;
     left: 23%;
-    top: 55%;
+    top: 56%;
     display: inline-block;
     padding: 10px 0;
     background-color: #ffffff;
@@ -32,7 +32,7 @@ body {
 .predict {
     position: absolute;
     left: 32%;
-    top: 60%;
+    top: 56%;
     display: inline-block;
     padding: 10px 0;
     background-color: #08e5bd;
@@ -79,7 +79,7 @@ body {
 .phrase {
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 23%;
     color: #ffffff;
 }
