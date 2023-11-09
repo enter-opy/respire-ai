@@ -65,12 +65,12 @@ body {
     align-content: center;
 }
 
-.details {
+.title {
     font-size: 3rem;
     line-height: 3rem;
     width: 25px;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 23%;
     color: #ffffff;
     visibility: visible;
