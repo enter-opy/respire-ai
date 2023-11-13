@@ -35,6 +35,6 @@ function handlePrediction() {
         result.innerHTML = "Normal";
     }
     else{
-        result.innerHTML = "Detected pnuemonia";
+        result.innerHTML = "Detected pneumonia";
     }
 };
