@@ -1,8 +1,6 @@
-<h1>credits</h1>
-@steveaugustine & Vivek Vijayan
+# Pneumonia Detection
 ## Usage
-
-To use the Pneumonia Detection tool, follow these steps:
+To use Pneumonia Detection tool, follow these steps:
 
 1. **Go to the Web App**: Visit [pneumonia-detection-seven.vercel.app](https://pneumonia-detection-seven.vercel.app).
 2. **Upload an X-ray Image**:
@@ -12,3 +10,10 @@ To use the Pneumonia Detection tool, follow these steps:
     - Click the "Diagnose" button.
     - Wait a few moments for the result to be displayed.
 
+## Contributing
+Contributions to Pneumonia Detection are welcome! If you'd like to contribute, follow these steps:
+1. **Fork the Repository:** Start by forking the [Pneumonia Detection](https://github.com/enter-opy/pneumonia-detection).
+2. **Make Changes:** Create a new branch, make your changes, and commit them to your branch.
+3. **Create a Pull Request:** Push your changes to your fork and submit a pull request to the original repository.
+## License
+This project is licensed under the GNU General Public License. See the [LICENSE](https://github.com/enter-opy/pneumonia-detection/blob/main/LICENSE) for details.
