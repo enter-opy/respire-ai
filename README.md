@@ -1,6 +1,6 @@
-# Pneumonia Detection
+# Respire.AI
 ## Usage
-To use Pneumonia Detection tool, follow these steps:
+To use Respire.AI pneumonia Detection tool, follow these steps:
 
 1. **Go to the Web App**: Visit [pneumonia-detection-seven.vercel.app](https://pneumonia-detection-seven.vercel.app).
 2. **Upload an X-ray Image**:
