@@ -16,7 +16,7 @@ body {
 .upload {
     position: absolute;
     left: 23%;
-    top: 57%;
+    top: 50%;
     display: inline-block;
     padding: 10px 0;
     background-color: #ffffff;
@@ -32,7 +32,7 @@ body {
 .predict {
     position: absolute;
     left: 32%;
-    top: 57%;
+    top: 50%;
     display: inline-block;
     padding: 10px 0;
     background-color: #08e5bd;
